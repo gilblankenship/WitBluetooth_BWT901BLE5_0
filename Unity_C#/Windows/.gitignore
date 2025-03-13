@@ -1,8 +1,0 @@
-.vs/
-Temp/
-Logs/
-_Prod/
-obj/
-*_Build/
-Library/*
-!Library/LastSceneManagerSetup.txt
