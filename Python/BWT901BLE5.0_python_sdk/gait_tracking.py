@@ -241,11 +241,11 @@ if True:
 
         return scatter
 
-    anim = animation.FuncAnimation(figure, update,
-                                   frames=int(len(timestamp) / samples_per_frame),
-                                   interval=1000 / fps,
-                                   repeat=False)
+    # anim = animation.FuncAnimation(figure, update,
+    #                                frames=int(len(timestamp) / samples_per_frame),
+    #                                interval=1000 / fps,
+    #                                repeat=False)
 
-    anim.save("animation.gif", writer=animation.PillowWriter(fps))
+    # anim.save("animation.gif", writer=animation.PillowWriter(fps))
 
 pyplot.show()
