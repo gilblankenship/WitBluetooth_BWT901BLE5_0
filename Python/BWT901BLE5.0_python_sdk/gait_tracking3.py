@@ -30,7 +30,8 @@ def butter_bandpass_filter(data, lowcut, highcut, fs, order=4):
     return y
 
 # Define the file path to our data (in the sensor_data subdirectory)
-file_path = os.path.join("sensor_data", "short_walk.csv")
+file_path = os.path.join("sensor_data", "20250317110658.txt") # Ben down-up stairs
+file_path = os.path.join("sensor_data", "20250319125437.txt") # Gil down-up stairs
 
 # Create the sensor_data directory if it doesn't exist
 os.makedirs("sensor_data", exist_ok=True)
